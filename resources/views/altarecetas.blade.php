@@ -1,5 +1,5 @@
 @extends ("layouts.plantilla")
 
 @section("cabecera")
-<p>Aquí se pueden ver todas las recetas</p>
+<p>Aquí se pueden crear nuevas recetas</p>
 @endsection

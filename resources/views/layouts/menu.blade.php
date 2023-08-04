@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Recetas Web</title>
 
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('../css/bootstrap.min.css')}}" rel="stylesheet">
 
 </head>
 <body>
@@ -18,13 +18,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Ver Recetas</a>
+          <a class="nav-link active" aria-current="page" href="/verRecetas">Ver Recetas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nueva Receta</a>
+          <a class="nav-link" href="/altaRecetas">Nueva Receta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Modificar Receta</a>
+          <a class="nav-link" href="/modRecetas">Modificar Receta</a>
         </li>
         
       </ul>
