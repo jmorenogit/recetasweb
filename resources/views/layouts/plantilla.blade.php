@@ -11,6 +11,7 @@
     
     @include("layouts.menu")
     @yield("cabecera")
+    @yield("cuerpo")
 
 </body>
 </html>
