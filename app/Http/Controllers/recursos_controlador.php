@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Receta;
+
 class recursos_controlador extends Controller
 {
     /**
@@ -13,7 +15,7 @@ class recursos_controlador extends Controller
      */
     public function index()
     {
-        return "Este es el controlador de recursos";
+        return view ("recetas");
     }
 
     /**
@@ -34,7 +36,13 @@ class recursos_controlador extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $receta=new Receta;
+        $receta->nombrereceta=$request->NombreReceta;
+        $receta->ingredientes=$request->IngredientesTextarea;
+        $receta->elaboracion=$request->ElaboracionTextarea;
+        $receta->save();
+
+        return redirect("/recursos");
     }
 
     /**

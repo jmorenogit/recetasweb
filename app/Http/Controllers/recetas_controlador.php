@@ -21,4 +21,7 @@ class recetas_controlador extends Controller
     public function modRecetas(){
         return view ("modrecetas");
     }
+    public function borrarRecetas(){
+        return view ("borrarrecetas");
+    }
 }

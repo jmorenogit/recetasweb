@@ -22,6 +22,7 @@ Route::get('/', [recetas_controlador::class, 'inicio']);
 Route::get('/verRecetas', [recetas_controlador::class, 'verRecetas']);
 Route::get('/altaRecetas', [recetas_controlador::class, 'altaRecetas']);
 Route::get('/modRecetas', [recetas_controlador::class, 'modRecetas']);
+Route::get('/borrarRecetas', [recetas_controlador::class, 'borrarRecetas']);
 
 use App\Http\Controllers\recursos_controlador;
 Route::resource('/recursos', recursos_controlador::class);

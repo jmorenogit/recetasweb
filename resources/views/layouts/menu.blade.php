@@ -26,6 +26,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/modRecetas">Modificar Receta</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/borrarRecetas">Borrar Receta</a>
+        </li>
         
       </ul>
       <form class="d-flex" role="search">
